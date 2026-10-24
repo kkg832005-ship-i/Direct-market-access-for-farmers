@@ -5,7 +5,7 @@ A React.js web application that connects farmers directly with buyers, eliminati
 ## Features
 
 ### MVP (Phase 1) - ✅ Implemented
-- **Authentication**: Email-based registration and login with Supabase Auth
+- **Authentication**: Email-based registration and login.
 - **Role-based Access**: Separate dashboards for farmers and buyers
 - **Farmer Features**:
   - Profile management with farm details
@@ -18,7 +18,7 @@ A React.js web application that connects farmers directly with buyers, eliminati
   - Order placement with Cash on Delivery
   - Order tracking and history
 - **Product Management**: CRUD operations for crop listings
-- **Image Upload**: Supabase Storage integration for product photos
+- **Image Upload**: Storage integration for product photos
 
 ### Upcoming Phases
 
@@ -46,8 +46,9 @@ A React.js web application that connects farmers directly with buyers, eliminati
 
 ## Tech Stack
 
-- **Frontend**: React 18, Vite, Tailwind CSS
-- **Backend**: Supabase (Database, Auth, Storage, Realtime)
+- **Frontend**: React 18, Tailwind CSS
+- **Backend**: Python
+- **Database**: SQL
 - **UI Components**: Custom components with Lucide React icons
 - **Animations**: Framer Motion
 - **State Management**: Zustand
@@ -55,10 +56,6 @@ A React.js web application that connects farmers directly with buyers, eliminati
 - **Notifications**: React Hot Toast
 
 ## Getting Started
-
-### Prerequisites
-- Node.js 18+ and npm
-- Supabase account
 
 ### Installation
 
@@ -144,16 +141,4 @@ This project is designed for scalable development:
 1. **Component-based**: Reusable UI components
 2. **Type-safe**: Ready for TypeScript migration
 3. **Performance**: Lazy loading and optimized queries
-4. **Modular**: Easy to add new features and integrations
-
-## About
-
-**Developer**: Lokesh Chapate  
-**Email**: lokeshchapate725@gmail.com  
-**Phone**: 9902279352
-
-Building technology solutions to empower farmers and create transparent, fair marketplaces for agricultural produce.
-
-## License
-
-This project is developed for educational and social impact purposes.
+4. **Modular**: Easy to add new features and integrations.
